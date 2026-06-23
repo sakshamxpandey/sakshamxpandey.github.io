@@ -1,39 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Saksham Pandey</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saksham Pandey | Video Editor & Content Creator</title>
+
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
 body{
-font-family:Arial;
-background:#111;
+background:#0f0f0f;
 color:white;
+line-height:1.6;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 text-align:center;
-padding:50px;
+padding:20px;
 }
-img{
-width:150px;
-border-radius:50%;
+
+.hero h1{
+font-size:3rem;
+margin-bottom:15px;
 }
+
+.hero p{
+max-width:700px;
+font-size:1.1rem;
+color:#cfcfcf;
+}
+
+.buttons{
+margin-top:30px;
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
 .btn{
-display:inline-block;
-padding:12px 20px;
-margin:10px;
-background:#ff9800;
-color:white;
+padding:12px 25px;
+border-radius:30px;
 text-decoration:none;
-border-radius:8px;
+font-weight:bold;
+transition:.3s;
+}
+
+.instagram{
+background:#E1306C;
+color:white;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+font-size:2rem;
+margin-bottom:20px;
+}
+
+.about p{
+max-width:800px;
+color:#d0d0d0;
+}
+
+.portfolio-box{
+margin-top:20px;
+padding:30px;
+border:1px solid #333;
+border-radius:15px;
+background:#161616;
+}
+
+footer{
+text-align:center;
+padding:30px;
+border-top:1px solid #222;
+color:#888;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:2.2rem;
+}
 }
 </style>
 </head>
+
 <body>
 
-<h1>Saksham Pandey</h1>
-<p>Video Editor & Content Creator</p>
+<div class="hero">
+<h1>Video Editor & Content Creator</h1>
 
-<p>I help creators and businesses create engaging videos.</p>
+<p>
+Hi, I'm Saksham Pandey. I believe every video has a story worth telling.
+Through creative editing, cinematic storytelling, and attention to detail,
+I transform ordinary footage into content that captures attention and leaves a lasting impression.
+</p>
 
-<a class="btn" href="https://instagram.com/">Instagram</a>
-<a class="btn" href="https://wa.me/917704024875">WhatsApp</a>
+<div class="buttons">
+
+<a class="btn instagram"
+href="https://instagram.com/sakshamxpandey"
+target="_blank">
+Instagram
+</a>
+
+<a class="btn whatsapp"
+href="https://wa.me/917704024875"
+target="_blank">
+WhatsApp
+</a>
+
+</div>
+</div>
+
+<section class="about">
+<h2>About Me</h2>
+
+<p>
+I'm a passionate video editor focused on creating engaging reels,
+cinematic edits, and social media content that stands out.
+Every project is approached with creativity, precision, and a commitment
+to delivering videos that people remember.
+</p>
+
+</section>
+
+<section>
+<h2>Portfolio</h2>
+
+<div class="portfolio-box">
+<p>
+Portfolio videos coming soon...
+</p>
+</div>
+</section>
+
+<footer>
+© 2026 Saksham Pandey • Video Editor & Content Creator
+</footer>
 
 </body>
 </html>
