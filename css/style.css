@@ -117,3 +117,50 @@ body {
 .nav-links a:hover{
     color:#ff9800;
 }
+
+/* ===========================
+   ABOUT SECTION
+=========================== */
+
+.about {
+    padding: 120px 10%;
+    background: #111;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.about-image {
+    width: 350px;
+    height: 450px;
+    background: #1b1b1b;
+    border: 2px solid #ff9800;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 650px;
+}
+
+.about-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: #bdbdbd;
+    font-size: 19px;
+    line-height: 1.9;
+}
