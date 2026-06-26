@@ -218,3 +218,50 @@ body {
     color:#bdbdbd;
     line-height:1.8;
 }
+
+/* ===========================
+   FEATURED WORK
+=========================== */
+
+.work{
+    padding:120px 10%;
+    background:#121212;
+}
+
+.work-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+}
+
+.work-card{
+    background:#1a1a1a;
+    border-radius:20px;
+    overflow:hidden;
+    border:1px solid #2b2b2b;
+    transition:.35s;
+}
+
+.work-card:hover{
+    transform:translateY(-10px);
+    border-color:#ff9800;
+}
+
+.work-image{
+    height:240px;
+    background:#2b2b2b;
+}
+
+.work-content{
+    padding:25px;
+}
+
+.work-content h3{
+    color:white;
+    margin-bottom:10px;
+    font-size:24px;
+}
+
+.work-content p{
+    color:#bdbdbd;
+}
