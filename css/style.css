@@ -513,23 +513,27 @@ body {
 
 }
 
-/* ===== TOOLS STRIP ===== */
+/* ===========================
+   TOOLS STRIP
+=========================== */
 
 .tools-strip{
 
-    width:100%;
+    width:100vw;
+
+    margin-top:70px;
+
+    margin-left:calc(50% - 50vw);
 
     overflow:hidden;
 
-    margin-top:80px;
-
-    padding:22px 0;
+    background:#151515;
 
     border-top:1px solid #2b2b2b;
 
     border-bottom:1px solid #2b2b2b;
 
-    background:#121212;
+    padding:18px 0;
 
 }
 
@@ -537,9 +541,11 @@ body {
 
     display:flex;
 
+    align-items:center;
+
     width:max-content;
 
-    animation:scrollTools 18s linear infinite;
+    animation:scrollTools 22s linear infinite;
 
 }
 
@@ -551,7 +557,7 @@ body {
 
     gap:12px;
 
-    margin-right:80px;
+    margin-right:70px;
 
     white-space:nowrap;
 
@@ -559,15 +565,15 @@ body {
 
 .tool img{
 
-    width:34px;
+    width:36px;
 
-    height:34px;
+    height:36px;
 
 }
 
 .tool span{
 
-    color:#fff;
+    color:white;
 
     font-size:18px;
 
