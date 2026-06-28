@@ -512,3 +512,81 @@ body {
     transform:translateY(0);
 
 }
+
+/* ===== TOOLS STRIP ===== */
+
+.tools-strip{
+
+    width:100%;
+
+    overflow:hidden;
+
+    margin-top:80px;
+
+    padding:22px 0;
+
+    border-top:1px solid #2b2b2b;
+
+    border-bottom:1px solid #2b2b2b;
+
+    background:#121212;
+
+}
+
+.tools-track{
+
+    display:flex;
+
+    width:max-content;
+
+    animation:scrollTools 18s linear infinite;
+
+}
+
+.tool{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    margin-right:80px;
+
+    white-space:nowrap;
+
+}
+
+.tool img{
+
+    width:34px;
+
+    height:34px;
+
+}
+
+.tool span{
+
+    color:#fff;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+@keyframes scrollTools{
+
+    from{
+
+        transform:translateX(0);
+
+    }
+
+    to{
+
+        transform:translateX(-50%);
+
+    }
+
+}
