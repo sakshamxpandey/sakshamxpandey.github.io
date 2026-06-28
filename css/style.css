@@ -407,3 +407,81 @@ body {
     color:#bdbdbd;
 
 }
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+
+    padding:120px 10% 60px;
+
+    background:#0b0b0b;
+
+    text-align:center;
+
+}
+
+.footer h2{
+
+    font-size:52px;
+
+    max-width:700px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+}
+
+.footer p{
+
+    max-width:650px;
+
+    margin:auto;
+
+    color:#bdbdbd;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+
+}
+
+.footer-btn{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    color:black;
+
+    background:#ff9800;
+
+    padding:18px 40px;
+
+    border-radius:50px;
+
+    font-weight:bold;
+
+    transition:.35s;
+
+}
+
+.footer-btn:hover{
+
+    transform:translateY(-5px);
+
+    background:#ffb84d;
+
+}
+
+.footer-bottom{
+
+    margin-top:80px;
+
+    color:#777;
+
+    font-size:15px;
+
+}
