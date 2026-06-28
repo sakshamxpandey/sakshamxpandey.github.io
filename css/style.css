@@ -265,3 +265,85 @@ body {
 .work-content p{
     color:#bdbdbd;
 }
+
+
+/* ===========================
+   COMING SOON
+=========================== */
+
+.work-grid{
+    display:flex;
+    justify-content:center;
+}
+
+.coming-soon-card{
+
+    width:700px;
+
+    background:#1a1a1a;
+
+    border:1px solid #2b2b2b;
+
+    border-radius:25px;
+
+    padding:70px 50px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.coming-soon-card:hover{
+
+    border-color:#ff9800;
+
+    transform:translateY(-8px);
+
+}
+
+.coming-icon{
+
+    font-size:60px;
+
+    margin-bottom:25px;
+
+}
+
+.coming-soon-card h3{
+
+    font-size:36px;
+
+    margin-bottom:20px;
+
+}
+
+.coming-soon-card p{
+
+    color:#bdbdbd;
+
+    line-height:1.8;
+
+    font-size:18px;
+
+    margin-bottom:35px;
+
+}
+
+.coming-soon-card span{
+
+    display:inline-block;
+
+    padding:12px 28px;
+
+    border:1px solid #ff9800;
+
+    border-radius:50px;
+
+    color:#ff9800;
+
+    font-weight:600;
+
+    letter-spacing:1px;
+
+}
