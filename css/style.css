@@ -697,10 +697,7 @@
         align-items:center;
     }
 
-    .about-container{
-        flex-direction:column;
-        text-align:center;
-    }
+  
 
    .about-container{
     flex-direction:column;
@@ -741,6 +738,27 @@
 
 .service-card p{
     font-size:16px;
+}
+    .work{
+    padding:80px 30px;
+}
+
+.work-grid{
+    display:flex;
+    justify-content:center;
+}
+
+.coming-soon-card{
+    width:100%;
+    padding:50px 30px;
+}
+
+.coming-soon-card h3{
+    font-size:30px;
+}
+
+.coming-soon-card p{
+    font-size:17px;
 }
 
     .work-grid{
@@ -843,6 +861,27 @@
 .service-card p{
     font-size:15px;
     line-height:1.7;
+}
+
+.work{
+    padding:70px 20px;
+}
+
+.coming-soon-card{
+    width:100%;
+    padding:40px 20px;
+}
+
+.coming-icon{
+    font-size:50px;
+}
+
+.coming-soon-card h3{
+    font-size:24px;
+}
+
+.coming-soon-card p{
+    font-size:15px;
 }
 
 }
