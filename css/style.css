@@ -188,11 +188,12 @@
     background: #111;
 }
 
-.about-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
+.about-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:80px;
+    flex-wrap:wrap;
 }
 
 .about-image {
@@ -699,14 +700,29 @@
         text-align:center;
     }
 
-    .about-image{
-        width:280px;
-        height:360px;
-    }
+   .about-container{
+    flex-direction:column;
+    text-align:center;
+    gap:40px;
+}
 
-    .services-container{
-        grid-template-columns:1fr;
-    }
+.about-image{
+    width:280px;
+    height:360px;
+}
+
+.about-text{
+    max-width:100%;
+}
+
+.about-text h2{
+    font-size:38px;
+}
+
+.about-text p{
+    font-size:17px;
+    line-height:1.8;
+}
 
     .work-grid{
         grid-template-columns:1fr;
@@ -776,7 +792,25 @@
         font-size:15px;
     }
 
+    .about{
+    padding:80px 25px;
 }
+
+.about-image{
+    width:240px;
+    height:310px;
+}
+
+.about-text h2{
+    font-size:30px;
+}
+
+.about-text p{
+    font-size:16px;
+}
+
+}
+
 
 /* ===========================
    MOBILE NAVBAR
