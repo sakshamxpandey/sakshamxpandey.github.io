@@ -255,6 +255,8 @@
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:35px;
+    align-items:stretch;
+
 }
 
 .service-card{
@@ -724,6 +726,23 @@
     line-height:1.8;
 }
 
+    .services-container{
+    grid-template-columns:1fr;
+    gap:25px;
+}
+
+.service-card{
+    padding:30px;
+}
+
+.service-card h3{
+    font-size:24px;
+}
+
+.service-card p{
+    font-size:16px;
+}
+
     .work-grid{
         grid-template-columns:1fr;
     }
@@ -807,6 +826,23 @@
 
 .about-text p{
     font-size:16px;
+}
+
+.services{
+    padding:80px 25px;
+}
+
+.service-card{
+    padding:25px;
+}
+
+.service-card h3{
+    font-size:22px;
+}
+
+.service-card p{
+    font-size:15px;
+    line-height:1.7;
 }
 
 }
