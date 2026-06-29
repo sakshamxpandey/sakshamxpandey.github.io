@@ -527,12 +527,13 @@ body {
 
     overflow:hidden;
 
-    background:#141414;
+  background:#181818;
 
     border-top:1px solid #222;
 
     border-bottom:1px solid #222;
 
+    margin-top:60px;
     padding:18px 0;
 
 }
@@ -564,11 +565,8 @@ body {
 }
 
 .tool img{
-
-    width:34px;
-
-    height:34px;
-
+    width:42px;
+    height:42px;
 }
 
 .tool span{
