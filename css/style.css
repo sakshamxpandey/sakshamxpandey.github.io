@@ -517,21 +517,21 @@ body {
    TOOLS STRIP
 =========================== */
 
+/* ===========================
+   TOOLS STRIP
+=========================== */
+
 .tools-strip{
 
-    width:100vw;
-
-    margin-top:70px;
-
-    margin-left:calc(50% - 50vw);
+    width:100%;
 
     overflow:hidden;
 
-    background:#151515;
+    background:#141414;
 
-    border-top:1px solid #2b2b2b;
+    border-top:1px solid #222;
 
-    border-bottom:1px solid #2b2b2b;
+    border-bottom:1px solid #222;
 
     padding:18px 0;
 
@@ -557,17 +557,17 @@ body {
 
     gap:12px;
 
-    margin-right:70px;
+    padding:0 45px;
 
-    white-space:nowrap;
+    flex-shrink:0;
 
 }
 
 .tool img{
 
-    width:36px;
+    width:34px;
 
-    height:36px;
+    height:34px;
 
 }
 
@@ -596,3 +596,5 @@ body {
     }
 
 }
+
+    
